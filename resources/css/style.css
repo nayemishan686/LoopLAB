@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-bottom: 3px solid #008ed6;
+}
+nav ul li{
+    padding: 0px 10px;
+}
+#home-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url('../img/home.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 60vh;
+}
+#home-section .home-inner{
+    padding: 150px 60px 50px 60px;
+}
+#home-section i{
+    padding: 5px;
+    background: #fff;
+    color: #008ed6;
+    font-size: 30px;
+}
+#home-section .own-card{
+    padding: 20px 0px;
+    margin-top: 10px
+}
+#explore-section i,
+#share-section i{
+    color: #fff;
+    background: #000;
+    padding: 5px
+}
+
+#create-section i{
+    color: #008ed6;
+    background: #fff;
+    padding: 5px
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+    #home-section h1{
+        font-size: 36px;
+    }
+}
+@media (max-width: 800px){
+    #home-section .home-inner{
+        padding: 100px 0px 50px 0px;
+    }
+}
+@media (max-width: 576px){
+  #explore-section h3,
+  #share-section h3,
+  #create-section h3
+    {
+        font-size: 20px;
+    }
+    
+}
